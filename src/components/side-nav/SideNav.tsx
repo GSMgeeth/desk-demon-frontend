@@ -2,18 +2,15 @@ import './styles.scss'
 import {FaMagic,FaShoppingCart} from 'react-icons/fa'
 import {AiOutlineAreaChart} from 'react-icons/ai'
 import {GiClothes} from 'react-icons/gi'
-import { Route, useHistory, useLocation } from 'react-router'
+import { useHistory, useLocation } from 'react-router'
 import { ROUTES } from '../../screens/Main'
-import { useEffect } from 'react'
+
 
 const SideNav = () =>{
 
     const {push} = useHistory();
     const {pathname} = useLocation();
 
-    useEffect(()=>{
-        console.log(pathname)
-    },[pathname])
 
     return <div className="side-nav">
        <ul>
