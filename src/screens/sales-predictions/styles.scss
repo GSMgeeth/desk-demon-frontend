@@ -1,0 +1,41 @@
+.sale-prediction-container{
+    padding: 40px;
+    .sp-items-wrapper{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .sp-item{
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+        cursor: pointer;
+        transition-property: transform;
+        transition: 200ms;
+        overflow: hidden;
+        position: relative;
+        &:hover{
+            transform: scale(1.1);
+            img{
+                transform: scale(1.5);
+            }
+            
+        }
+        img{
+            width: 100%;
+            height: 200px;
+            display: block;
+            transition-property: transform;
+            transition: 500ms;
+        }
+
+        label{
+            height: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.527);
+        }
+    }
+}
