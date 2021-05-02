@@ -12,7 +12,7 @@ import { Button } from "@blueprintjs/core";
 import { FaMagic, FaShoppingCart } from "react-icons/fa";
 import { AiOutlineAreaChart } from "react-icons/ai";
 import { GiClothes } from "react-icons/gi";
-import { useHistory, useLocation } from "react-router";
+import { useHistory } from "react-router";
 import { ROUTES } from "../../screens/Main";
 
 const data = [
