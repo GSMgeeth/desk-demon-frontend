@@ -62,7 +62,6 @@ const data = [
 
 const Dashboard = () => {
   const { push } = useHistory();
-  const { pathname } = useLocation();
   return (
     <div className="dashboard-container">
       <div>
