@@ -19,9 +19,13 @@
             svg{
                 margin-right: 10px;
             }
-            &:hover{
-                background-color: #1085a8;
+            &:hover:not(.active){
+                background-color: #1085a885;
             }
+        }
+
+        .active{
+            background-color: #1085a8;
         }
     }
 }
