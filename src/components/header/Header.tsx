@@ -2,21 +2,21 @@ import {
   Alignment,
   Navbar,
   NavbarGroup,
-  NavbarHeading,
 } from "@blueprintjs/core";
 import React from "react";
+import {SiNodemon} from "react-icons/si"
 import "./styles.scss";
 
-const SideNave = () => {
+const Header = () => {
   return (
     <div>
-      <Navbar>
-        <NavbarGroup align={Alignment.LEFT}>
-          <NavbarHeading>Desk Demon</NavbarHeading>
+      <Navbar style={{height:"70px"}}>
+        <NavbarGroup align={Alignment.LEFT} style={{height:"100%"}}>
+          <h2><SiNodemon/> Desk Demon</h2>
         </NavbarGroup>
       </Navbar>
     </div>
   );
 };
 
-export default SideNave;
+export default Header;

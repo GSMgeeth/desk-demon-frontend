@@ -1,13 +1,9 @@
 import './styles.scss'
 
-const Header = () =>{
-    return <div>
-        <div></div>
-        <div>
-            <div></div>
-            <div></div>
-        </div>
+const SideNav = () =>{
+    return <div className="side-nav">
+       
     </div>
 }
 
-export default Header;
+export default SideNav;
