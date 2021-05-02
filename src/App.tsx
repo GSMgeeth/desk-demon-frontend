@@ -3,7 +3,7 @@ import Main from './screens/Main';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bp3-dark">
       <Main/>
     </div>
   );
